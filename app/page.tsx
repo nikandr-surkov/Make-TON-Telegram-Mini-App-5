@@ -55,7 +55,7 @@ export default function Home() {
     if (!user) return
 
     try {
-      const res = await fetch('/api/increasePoints', {
+      const res = await fetch('/api/increase-points', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
